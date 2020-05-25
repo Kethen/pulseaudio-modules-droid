@@ -32,8 +32,8 @@
 #include <pulsecore/atomic.h>
 #include <pulsecore/modargs.h>
 
-#include <droid/version.h>
-#include <droid/droid-config.h>
+#include "version.h"
+#include "droid-config.h"
 
 #if defined(QCOM_BSP) && (AUDIO_API_VERSION_MAJ >= 3)
 #define DROID_AUDIO_HAL_USE_VSID
